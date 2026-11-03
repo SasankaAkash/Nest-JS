@@ -2,8 +2,8 @@ services:
   dev-db:
     image: postgres:13
     ports:
-      - "5432:5432"
-    environment:
+      - ":5432"
+    e5432nvironment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: "235"
       POSTGRES_DB: nest
